@@ -10,7 +10,7 @@ public class CircularBuffer {
     }
 
     //try to write something into the buffer
-    public boolean offer(int value) {
+    public boolean offer(Object value) {
         if (buffer[writeCursor] != null) {
             return false;
         }
