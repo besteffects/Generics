@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="534d3374-033e-464f-8346-0aecbc9eeb63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_WhyGenerics/GenericCircularBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_WhyGenerics/StringCircularBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GenericCircularBufferTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_1_WhyGenerics/TypeUnsafeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_1_WhyGenerics/TypeUnsafeExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,11 +29,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CircularBufferTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GenericCircularBufferTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/java-generics/01/demos/src/test/java/com/monotonic/generics/_1_what_and_why_of_generics/GenericCircularBufferTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="43" selection-start-line="5" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -85,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/_1_WhyGenerics/GenericCircularBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="270">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="e#198#199#0" expanded="true" />
                 <element signature="e#241#242#0" expanded="true" />
@@ -134,13 +153,14 @@
         <option value="$PROJECT_DIR$/src/main/java/_1_WhyGenerics/TypeUnsafeExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_WhyGenerics/StringCircularBuffer.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_WhyGenerics/GenericCircularBuffer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GenericCircularBufferTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="790" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="26" />
     <option name="y" value="23" />
-    <option name="width" value="650" />
+    <option name="width" value="1414" />
     <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -230,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TypeUnsafeExample">
+  <component name="RunManager" selected="Gradle.GenericCircularBufferTest.shouldOfferPollableElement">
     <configuration name="TypeUnsafeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_1_WhyGenerics.TypeUnsafeExample" />
       <module name="Generics.main" />
@@ -284,6 +304,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="GenericCircularBufferTest.shouldOfferPollableElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;GenericCircularBufferTest.shouldOfferPollableElement&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Tests in 'Generics.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -306,6 +346,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GenericCircularBufferTest.shouldOfferPollableElement" />
         <item itemvalue="Application.TypeUnsafeExample" />
         <item itemvalue="Gradle.CircularBufferTest" />
         <item itemvalue="Gradle.Tests in 'Generics.test'" />
@@ -339,9 +380,12 @@
     <history-entry file="CircularBufferTest - 2020.06.23 at 22h 49m 20s.xml">
       <configuration name="CircularBufferTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="GenericCircularBufferTest_shouldOfferPollableElement - 2020.06.23 at 23h 42m 03s.xml">
+      <configuration name="GenericCircularBufferTest.shouldOfferPollableElement" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="790" y="23" width="650" height="804" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="804" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -349,15 +393,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32401314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14091559" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.3286517" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3286517" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3286517" />
       <window_info anchor="bottom" id="Build" weight="0.3286517" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286517" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,16 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="43" column="1" selection-start-line="27" selection-start-column="3" selection-end-line="43" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CircularBufferTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -418,20 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_WhyGenerics/TypeUnsafeExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_WhyGenerics/StringCircularBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/java-generics/01/demos/src/main/java/com/monotonic/generics/_1_what_and_why_of_generics/GenericExample.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -446,15 +466,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_WhyGenerics/GenericCircularBuffer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CircularBufferTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/java-generics/01/demos/src/test/java/com/monotonic/generics/_1_what_and_why_of_generics/GenericCircularBufferTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="43" selection-start-line="5" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_WhyGenerics/StringCircularBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_WhyGenerics/TypeUnsafeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_WhyGenerics/GenericCircularBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="e#198#199#0" expanded="true" />
             <element signature="e#241#242#0" expanded="true" />
             <element signature="e#961#962#0" expanded="true" />
             <element signature="e#1011#1012#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GenericCircularBufferTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
