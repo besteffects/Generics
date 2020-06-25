@@ -1,13 +1,13 @@
-package _3_Classes_and_interfaces;
+package _3_Classes_and_interfaces.before;
 
 import _2_Collections.Person;
-import _3_Classes_and_interfaces.before.AgeComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
-public class SortingExamples {
+public class SortingAnonymousClassExample {
     public static void main(String[] args) {
         Person donDraper = new Person("Don Draper", 89);
         Person peggyOlson = new Person("Peggy Olson", 65);
@@ -18,10 +18,12 @@ public class SortingExamples {
         madMen.add(peggyOlson);
         madMen.add(bertCooper);
 
-        System.out.println("Initial order: " + madMen);
-        //Comparator defines the order according to which a list has to be sorted
-        Collections.sort(madMen, new AgeComparator());
-
-        System.out.println("After applying comparator (sorted by age): " + madMen);
+        Collections.sort(madMen, new Comparator<Person>() {
+            @Override
+            public int compare(Person o1, Person o2) {
+                return Integer.compare(o1.getAge(),o2.getAge());
+            }
+        });
+        System.out.println(madMen);
     }
 }
