@@ -1,4 +1,4 @@
-package _3_Classes_and_interfaces;
+package _3_Classes_and_interfaces.before;
 
 import _2_Collections.Person;
 import _3_Classes_and_interfaces.before.AgeComparator;
