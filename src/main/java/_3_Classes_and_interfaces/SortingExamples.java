@@ -2,6 +2,7 @@ package _3_Classes_and_interfaces;
 
 import _2_Collections.Person;
 import _3_Classes_and_interfaces.before.AgeComparator;
+import _3_Classes_and_interfaces.before.ReverseComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -19,8 +20,14 @@ public class SortingExamples {
         madMen.add(bertCooper);
 
         System.out.println("Initial order: " + madMen);
+
         //Comparator defines the order according to which a list has to be sorted
         Collections.sort(madMen, new AgeComparator());
+
+        System.out.println("After applying comparator (sorted by age): " + madMen);
+
+
+        Collections.sort(madMen, new ReverseComparator<>(new AgeComparator()));
 
         System.out.println("After applying comparator (sorted by age): " + madMen);
     }
