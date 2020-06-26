@@ -1,4 +1,4 @@
-package _6_Raw_Types;
+package _6_Raw_Types.a_raw_types;
 
 import java.util.ArrayList;
 import java.util.Iterator;
