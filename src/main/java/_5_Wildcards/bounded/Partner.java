@@ -1,13 +1,15 @@
-package _5_Wildcards;
+package _5_Wildcards.bounded;
 
-public class Employee extends PersonWildcard {
-    public Employee(final String name, final int age) {
+public class Partner extends PersonWildcard {
+
+
+    public Partner(final String name, final int age) {
         super(name, age);
     }
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "Partner{" +
                 "name='" + getName() + '\'' +
                 ", age=" + getAge() +
                 '}';

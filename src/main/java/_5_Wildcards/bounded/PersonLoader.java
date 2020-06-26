@@ -1,4 +1,4 @@
-package _5_Wildcards;
+package _5_Wildcards.bounded;
 
 import java.io.File;
 import java.io.FileNotFoundException;

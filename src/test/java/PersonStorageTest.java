@@ -1,7 +1,9 @@
-import _5_Wildcards.*;
+import _5_Wildcards.bounded.Employee;
+import _5_Wildcards.bounded.Partner;
+import _5_Wildcards.bounded.PersonLoader;
+import _5_Wildcards.bounded.PersonSaver;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.File;
