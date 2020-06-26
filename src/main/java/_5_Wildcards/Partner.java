@@ -1,6 +1,6 @@
 package _5_Wildcards;
 
-public class Partner extends PersonWild {
+public class Partner extends PersonWildcard {
 
 
     public Partner(final String name, final int age) {

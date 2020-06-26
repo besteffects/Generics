@@ -1,6 +1,6 @@
 package _5_Wildcards;
 
-public class Employee extends PersonWild {
+public class Employee extends PersonWildcard {
     public Employee(final String name, final int age) {
         super(name, age);
     }
